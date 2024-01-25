@@ -3,7 +3,7 @@ Docker image for unstructured+langchain PDF document loading with OCR
 
 ```bash
 docker build --target ready -t unstructured_pdf .
-docker run --rm-it unstructured_pdf /bin/bash
+docker run --rm -it unstructured_pdf /bin/bash
 ```
 
 ```python
